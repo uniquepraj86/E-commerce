@@ -68,24 +68,24 @@ a {
 }
 
 .header-bottom .menu-links a,
-.header.button .dropdown button {
-  color: white;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400px;
-  letter-spacing: 0.3;
-  text-transform: uppercase;
+.header.bottom .dropdown button
+{
+color:white;
+font-size:14px;
+line-height:18px;
+font-weight:400px;
+letter-spacing:0.3;
+text-transform:uppercase;
 }
-
-.header-button .dropdown button::focus {
-  box-shadow: none;
+.header-bottom .dropdown button::focus{
+box-shadow:none;
 }
-
-.header-bottom .dropdown-menu {
-  background-color: var(--color-131921);
-  width: 100%;
-  transform: translate3d(0px, 57px, 0px) !important;
+.header-bottom .dropdown-menu{
+background-color:var(--color-131921);
+width:100%;
+transform:translate3d(0px,57px,0px)!important;
 }
-
-
-
+.header-bottom .dropdown-item:hover{
+ background-color:transperent;
+color:var(--color-febd69)!important;
+}
