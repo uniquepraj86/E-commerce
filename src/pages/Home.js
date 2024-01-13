@@ -34,9 +34,45 @@ const Home = () => {
                     <h4>SUPPERCHARGED FOR PROS.</h4>
                     <h5>iPad S13+ Pro.</h5>
                     <p>From $999.00 or $41.62/mo</p>
-                    <Link className="button">Buy Now</Link>
                   </div>
                 </div>
+                <div className="small-banner-content p-3 position-relative">
+                  <img
+                    src="images/catbanner-01.jpg "
+                    className="img-fluid"
+                    alt="small-banner"
+                  />
+                  <div className="small-banner-content position-absolute">
+                    <h4>SUPPERCHARGED FOR PROS.</h4>
+                    <h5>iPad S13+ Pro.</h5>
+                    <p>From $999.00 or $41.62/mo</p>
+                  </div>
+                </div>
+                <div className="small-banner-content p-3 position-relative">
+                  <img
+                    src="images/catbanner-01.jpg"
+                    className="img-fluid"
+                    alt="small-banner"
+                  />
+                  <div className="small-banner-content position-absolute">
+                    <h4>SUPPERCHARGED FOR PROS.</h4>
+                    <h5>iPad S13+ Pro.</h5>
+                    <p>From $999.00 or $41.62/mo</p>
+                  </div>
+                </div>
+                <div className="small-banner-content p-3 position-relative">
+                  <img
+                    src="images/catbanner-01.jpg"
+                    className="img-fluid"
+                    alt="small-banner"
+                  />
+                  <div className="small-banner-content position-absolute">
+                    <h4>SUPPERCHARGED FOR PROS.</h4>
+                    <h5>iPad S13+ Pro.</h5>
+                    <p>From $999.00 or $41.62/mo</p>
+                  </div>
+                </div>
+                
                 
               </div>
             </div>

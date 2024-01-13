@@ -184,8 +184,10 @@ footer .input-group-text{
 }
 .small-banner-content {
   top: 25%;
-  left: 10%;
 }
+.small-banner-content img{
+  height: 185px; 
+ }
 .small-banner-content h4 {
   font-size: 14px;
   font-weight: 400;
