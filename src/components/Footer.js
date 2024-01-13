@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaLinkedin,FaGithub,BsYoutube,BsInstagram, BsLinkedin, BsGithub,} from "react-icons/bs";
+import { PiPaperPlaneTiltFill } from "react-icons/pi";
+
 function Footer() {
   return (
    <>
@@ -7,8 +10,9 @@ function Footer() {
      <div className="container-xxl">
         <div className="row d-flex align-items-center">
             <div className="col-5">
-                <div className="footer-top-data d-flex gap-30 align-items-center">
-                    <img src="images/newsletter.png" alt="newsletter" />
+                <div className="footer-top-data d-flex gap-30 align-items-center.fs-3 text-white">
+                <PiPaperPlaneTiltFill />
+                    {/* <img src="images/newsletter.png" alt="newsletter" /> */}
                     <h2 className='mb-0 text-white'>Sign Up for Newsletter</h2>
                 </div>
             </div>
@@ -40,16 +44,28 @@ function Footer() {
                     Hno:277 Near vill chopal,<br/> Soniapat,Haryana <br/>
                     PinCode:131103
                 </address>
-                <address>
                     <a href="tel:+91 8329383044"
-                     className='mt-4 d-block mb-3'>+91 8329383044
+                     className='mt-4 d-block mb-2 text-white'>
+                        +91 8329383044
                     </a>
                     <a href="mailto:prajktaarote86@gmail.com" 
-                    className='mt-4 d-block mb-3'>
-                        mailto:prajktaarote86@gmail.com
+                    className='mt-4 d-block mb-2 text-white'> 
+                        prajktaarote86@gmail.com
                     </a>
-
-                </address>
+                    <div className="social-icons d-flex align-items-center gap-30">
+                      <a href="https://www.linkedin.com/in/prajakta86/" className='text-white mb-4 '>
+                        <BsLinkedin/>
+                      </a>
+                      <a href="" className='text-white mb-4'>
+                        <BsInstagram/>
+                      </a>
+                      <a href="https://www.youtube.com/shorts/3PyRBLQ7W7U"className='text-white mb-4'>
+                        <BsYoutube/>
+                      </a>
+                      <a href="https://github.com/uniquepraj86"className='text-white mb-4'>
+                      <BsGithub/>
+                      </a>
+                    </div>
              </div>
             </div>
         </div>

@@ -91,16 +91,11 @@ const Header = () => {
       <header className="header-bottom py-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12 d-flex">
-              <div className="menu-bottom d-flex laign-items-center gap-30">
+            <div className="col-12 d-flex align-items-center gap-30">
+              <div className="menu-bottom">
                 <div className="dropdown">
-                  <button
-                    className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
-                    type="button"
-                    id="dropdownMenuButton1"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
+                  <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="images/menu.png" alt="" />
                     <span className="me-5 d-inline-block">Shop Categories</span>
                   </button>
