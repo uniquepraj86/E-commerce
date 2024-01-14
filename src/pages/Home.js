@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Container from "../components/Container";
+
 import Marquee from "react-fast-marquee";
 import BlogCard from "./BlogCard";
 import ProductCard from "../components/ProductCard";
@@ -8,7 +9,9 @@ import ProductCard from "../components/ProductCard";
 const Home = () => {
   return (
     <>
-      <Container class1="home-wrapper-1 py-5 ">
+
+      <Container className="home-wrapper-1 py-5 ">
+
         <div className="container-xxl">
           <div className="row d-flex align-items-center">
             <div className="col-6">
@@ -310,6 +313,50 @@ const Home = () => {
             <BlogCard />
             <BlogCard />
             <BlogCard />
+          </div>
+        </div>
+      </Container>
+
+      <Container class1="home-wrapper-2 py-5">
+        <div className="row">
+          <div className="col-12">
+            <div className="servies d-flex align-items-center justify-content-between">
+              <div>
+                <img src="images/service.png" alt="services" />
+                <div>
+                  <h6></h6>
+                  <p></p>
+                </div>
+              </div>
+              <div>
+                <img src="images/service-02.png" alt="services" />
+                <div>
+                  <h6></h6>
+                  <p></p>
+                </div>
+              </div>
+              <div>
+                <img src="images/service-03.png" alt="services" />
+                <div>
+                  <h6></h6>
+                  <p></p>
+                </div>
+              </div>
+              <div>
+                <img src="images/service-04.png" alt="services" />
+                <div>
+                  <h6></h6>
+                  <p></p>
+                </div>
+              </div>
+              <div>
+                <img src="images/service-05.png" alt="services" />
+                <div>
+                  <h6></h6>
+                  <p></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Container>
