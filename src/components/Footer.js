@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin,FaGithub,BsYoutube,BsInstagram, BsLinkedin, BsGithub,} from "react-icons/bs";
+import { BsYoutube,BsInstagram, BsLinkedin, BsGithub,} from "react-icons/bs";
 import { PiPaperPlaneTiltFill } from "react-icons/pi";
 
 function Footer() {
