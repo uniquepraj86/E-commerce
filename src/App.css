@@ -151,9 +151,9 @@ footer .input-group-text{
 /* Home Page */
 
 .main-banner-content {
-  top: 15%;
+  top: 25%;
   left: 5%;
-  margin-bottom: 30px;
+
 }
 .main-banner-content h4 {
   font-size: 16px;
@@ -183,7 +183,8 @@ footer .input-group-text{
   color: var(--color-131921);
 }
 .small-banner-content {
-  top: 25%;
+  left: 5%;
+  top: 15%;
 }
 .small-banner-content img{
   height: 185px; 
@@ -215,9 +216,15 @@ footer .input-group-text{
   width: 49%;
 }
 
-
 /* Home page end */
 
+
+/* home wrapper 2 */
+.home-wrapper-2 {
+  background-color: var(--color-f5f5f7);
+}
+
+/* home wrapper 2 ends */
 
 
 
