@@ -215,6 +215,7 @@ const Home = () => {
             </div>
             <SpecialProduct />
             <SpecialProduct />
+            <SpecialProduct />
           </div>
         </div>
       </Container>
