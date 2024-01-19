@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import Container from "../components/Container";
 import ReactStars from "react-rating-stars-component";
+import ProductCard from "../components/ProductCard"
 
 const OurStore = () => {
+  const [grid, setGrid] = useState(4);
+   
   return (
     <>
       <Meta title={"Our Store"} />
@@ -16,6 +19,32 @@ const OurStore = () => {
               <h3 className="filter-title">Shop By Categories</h3>
               <div>
                 <ul className="ps-0"></ul>
+              </div>
+            </div>
+            <div className="filter-card mb-3">
+              <h3 className="filter-title">Filter By</h3>
+              <div>
+                <h5 className="sub-title">Availability</h5>
+                <div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id=""
+                    />
+                    <label className="form-check-label">In stock{0}</label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id=""
+                    />
+                    <label className="form-check-label">out of stock{0}</label>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="filter-card mb-3">
@@ -78,32 +107,44 @@ const OurStore = () => {
                 <h5 className="sub-title">Size</h5>
                 <div>
                   <div className="form-check">
-                    <input 
-                    className="form-check-label"
-                    value=""
-                    id="color-1"      
-                     type="checkbox" />
-                     <label htmlFor="color-1" className="form-check-label"></label>
-                  s{2}
-                 </div>
-                 <div className="form-check">
-                    <input 
-                    className="form-check-label"
-                    value=""
-                    id="color-2"      
-                     type="checkbox" />
-                     <label htmlFor="color-2" className="form-check-label"></label>
-                  M{2}
-                 </div>
-                 <div className="form-check">
-                    <input 
-                    className="form-check-label"
-                    value=""
-                    id="color-3"      
-                     type="checkbox" />
-                     <label htmlFor="color-3" className="form-check-label"></label>
-                  s{2}
-                 </div>
+                    <input
+                      className="form-check-label"
+                      value=""
+                      id="color-1"
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="color-1"
+                      className="form-check-label"
+                    ></label>
+                    s{2}
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-label"
+                      value=""
+                      id="color-2"
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="color-2"
+                      className="form-check-label"
+                    ></label>
+                    M{2}
+                  </div>
+                  <div className="form-check">
+                    <input
+                      className="form-check-label"
+                      value=""
+                      id="color-3"
+                      type="checkbox"
+                    />
+                    <label
+                      htmlFor="color-3"
+                      className="form-check-label"
+                    ></label>
+                    s{2}
+                  </div>
                 </div>
               </div>
               <div className="mt-4 mb-3">
@@ -123,7 +164,7 @@ const OurStore = () => {
                       Wire
                     </span>
                     <span className="badge bg-light text-secondary rounded-3 py-2 px-3">
-                     tablet
+                      tablet
                     </span>
                   </div>
                 </div>
@@ -132,27 +173,43 @@ const OurStore = () => {
                 <h3 className="filter-title sub-title">Random Product</h3>
                 <div>
                   <div className="random-products d-flex">
-                     <div className="w-50">
-                      <img src="images/headphone.jpg" 
-                      className="img.fluid w-100" alt="watch"/>
-                     </div>
-                     <div className="w-50">
+                    <div className="w-50">
+                      <img
+                        src="images/headphone.jpg"
+                        className="img.fluid w-100"
+                        alt="watch"
+                      />
+                    </div>
+                    <div className="w-50">
                       <h5>Kids Headphone bulk 10 pack multi colored For_</h5>
-                      <ReactStars count={5} size={24} value="3" activeColor="#ffd700" />
+                      <ReactStars
+                        count={5}
+                        size={24}
+                        value="3"
+                        activeColor="#ffd700"
+                      />
                       <b>$300</b>
-                     </div>
-                </div>
-                <div className="random-products d-flex mt-4">
-                     <div className="w-50">
-                      <img src="images/watch.jpg" 
-                      className="img.fluid w-100" alt="watch"/>
-                     </div>
-                     <div className="w-50">
+                    </div>
+                  </div>
+                  <div className="random-products d-flex mt-4">
+                    <div className="w-50">
+                      <img
+                        src="images/watch.jpg"
+                        className="img.fluid w-100"
+                        alt="watch"
+                      />
+                    </div>
+                    <div className="w-50">
                       <h5>Kids Headphone bulk 10 pack multi colored For_</h5>
-                      <ReactStars count={5} size={24} value="3" activeColor="#ffd700" />
+                      <ReactStars
+                        count={5}
+                        size={24}
+                        value="3"
+                        activeColor="#ffd700"
+                      />
                       <b>$300</b>
-                     </div>
-                </div>
+                    </div>
+                  </div>
                 </div>
                 <div>
                   <div className="product-tags d-flex flex-wrap align-items-center gap-10"></div>
@@ -190,23 +247,30 @@ const OurStore = () => {
                 <div className="d-flex align-items-center gap-10">
                   <p className="totalproducts mb-0">21 Products</p>
                   <div className="d-flex gap-10 align-items-center grid">
-                    <img
+                    <img onClick={()=>{
+                      setGrid(3);
+                    }} 
                       src="images/gr4.svg"
                       className="d-block img-fluid"
                       alt="grid"
                     />
-                    <img
+                    <img onClick={()=>{
+                      setGrid(4);
+                    }}  
                       src="images/gr3.svg"
                       className="d-block img-fluid"
                       alt="grid"
                     />
-                    <img
+                    <img onClick={()=>{
+                      setGrid(6);
+                    }}  
                       src="images/gr2.svg"
                       className="d-block img-fluid"
                       alt="grid"
                     />
-
-                    <img
+                    <img onClick={()=>{
+                      setGrid(12);
+                    }}  
                       src="images/gr.svg"
                       className="d-block img-fluid"
                       alt="grid"
@@ -216,7 +280,9 @@ const OurStore = () => {
               </div>
             </div>
             <div className="products-list pb-5">
-              <div className="d-flex gap-10 flex-wrap"></div>
+              <div className="d-flex gap-10 flex-wrap">
+                <ProductCard grid={grid}/>
+              </div>
             </div>
           </div>
         </div>
