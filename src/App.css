@@ -83,6 +83,7 @@ a {
   height: 35px;
 }
 
+
 .header-bottom {
   background-color: var(--color-232f3e);
 }
@@ -535,6 +536,11 @@ footer .input-group-text{
 }
 .gr-12 .product-card .product-image {
   width: 270px;
+}
+.product-card .product-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .gr-12 .product-card .product-image {
   height: auto;

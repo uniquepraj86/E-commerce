@@ -10,7 +10,7 @@ const { title, brand, totalrating, price, sold, quantity,id } = props;
         <div className="special-product-card">
           <div className="d-flex justify-content-between">
             <div>
-              <img src="images/watch.jpg" className="img-fluid" alt="watch" />
+              <img src="images/wash.jpg" className="img-fluid" alt="watch" />
             </div>
             <div className="special-product-content">
               <h5 className="brand">Havel</h5>

@@ -260,11 +260,13 @@ const Home = () => {
           <div className="row">
             <div className="col-12">
               <h3 className="section-heading">Our Latest News </h3>
+            </div >
+            <div className="col-12 d-flex gap-4">
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
             </div>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
           </div>
         </div>
       </Container>

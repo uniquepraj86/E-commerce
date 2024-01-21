@@ -83,6 +83,7 @@ const Contact = () => {
                       </li>
                       <li className="mb-3 d-flex gap-15">
                         <BiInfoCircle  className="fs-5"/>
+                        <p className="mb-0">Monday - Friday 10 AM - 8 PM</p>
                       </li>
                     </ul>
                   </div>

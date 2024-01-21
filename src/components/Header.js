@@ -14,25 +14,25 @@ const Header = () => {
               </p>
             </div>
             <div className="col-6">
-              <p className="text-end text-white mb-0">
-                Hotline: <a href="tel:+91 8329383044"> +91 8329383044</a>
+              <p className="text-end text-white mb-0 text-white">
+                Hotline: <a href="tel:+91 8329383044" className="text-white"> +91 8329383044</a>
               </p>
             </div>
           </div>
         </div>
       </header>
       <header className="header-upper py-3">
-        <div className="container-xxl d-flex">
+        <div className="container-xxl d-flex align-items-center">
           <div className="col-2">
             <h3>
-              <Link className="text-white">Dev Corner</Link>
+              <Link className="text-white">Unique Praj</Link>
             </h3>
           </div>
-          <h2 className="col-2">
-            <Link>Developers</Link>
+          <h2 className="col-1 mr-5">
+            <Link >Coder</Link>
           </h2>
           <div className="col-3">
-            <div className="input-group mb-3">
+            <div className="input-group mb-3 ">
               <input
                 type="text"
                 className="form-control py-2"
@@ -49,34 +49,34 @@ const Header = () => {
             <div className="header-upper-links d-flex align-items-center justify-content-between">
               <div></div>
               <div>
-                <Link className="d-flex align-items-center gap-2 text-white">
+                <Link  to="/compare-product" className="d-flex align-items-center gap-2 text-white">
                   <img src="images/compare.png" alt="compare" />
                   <p>
-                    Compare <br />
+                     <br /> 
                     Products
                   </p>
                 </Link>
               </div>
               <div>
-                <Link className="d-flex align-items-center gap-2 text-white">
+                <Link to='/wishlist' className="d-flex align-items-center gap-2 text-white">
                   <img src="images/wishlist.png" alt="wishlist" />
                   <p>
-                    Favourite <br />
+                    <br />
                     Wishlist
                   </p>
                 </Link>
               </div>
               <div>
-                <Link className="d-flex align-items-center gap-2 text-white">
+                <Link to='/log-in' className="d-flex align-items-center gap-2 text-white">
                   <img src="images/user.png" alt="user" />
                   <p>
-                    Log in <br />
-                    My Account
+                  <br />
+                    Log in 
                   </p>
                 </Link>
               </div>
               <div>
-                <Link className="d-flex align-items-center gap-1 text-white">
+                <Link to="/cart" className="d-flex align-items-center gap-1 text-white">
                   <img src="images/cart.png" alt="cart" />
                   <div className="d-flex flex-column gap-10">
                     <span className="badge bg-white text-dark">0</span>

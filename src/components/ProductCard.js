@@ -74,17 +74,19 @@ const ProductCard = (props) => {
             </Link>
           </div>
 
-          <div className="product-image">
+          <div className="product-image ">
             <img
-              src="images/watch.jpg"
-              className="img-fluid"
+            src="images/apple.jpeg"
+              className="img-fluid mt-1 mt-1"
               alt="product image"
             />
+            
             <img
-              src="images/watch-1.avif"
-              className="img-fluid"
+              src="images/apple1(1).jpeg"
+              className="img-fluid mt-1 "
               alt="product image"
             />
+            
           </div>
           <div className="product-details">
             <h6 className="brand">Havels</h6>
