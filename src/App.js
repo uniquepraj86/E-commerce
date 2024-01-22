@@ -10,6 +10,7 @@ import Blog from './pages/Blog';
 import CompareProduct from './pages/CompareProduct'
 import Wishlist from './pages/Wishlist';
 import LogIn from './pages/LogIn'
+import ForgotPassword from './pages/ForgotPassward';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
            <Route path='compare-product' element={<CompareProduct/>}/>
            <Route path='wishlist' element={<Wishlist/>}/>
            <Route path='log-in' element={<LogIn/>}/>
+           <Route path='forgot-password' element={<ForgotPassword/>}/>
           </Route>
       </Routes>
   </BrowserRouter>
