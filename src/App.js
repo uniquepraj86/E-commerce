@@ -26,7 +26,6 @@ function App() {
            <Route path='compare-product' element={<CompareProduct/>}/>
            <Route path='wishlist' element={<Wishlist/>}/>
            <Route path='log-in' element={<LogIn/>}/>
-           
           </Route>
       </Routes>
   </BrowserRouter>

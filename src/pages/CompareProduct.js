@@ -1,6 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
-// import Color from "../components/Color";
+import Color from "../components/Color";
 import Meta from "../components/Meta";
 import watch from "../images/watch.jpg";
 import Container from "../components/Container";
@@ -42,8 +42,8 @@ const CompareProduct = () => {
                     <p>In Stock</p>
                   </div>
                   <div className="product-detail">
-                    {/* <h5>Color:</h5>
-                    <Color /> */}
+                    <h5>Color:</h5>
+                    <Color />
                   </div>
                   <div className="product-detail">
                     <h5>Size:</h5>
@@ -86,8 +86,8 @@ const CompareProduct = () => {
                     <p>In Stock</p>
                   </div>
                   <div className="product-detail">
-                    {/* <h5>Color:</h5>
-                    <Color /> */}
+                    <h5>Color:</h5>
+                    <Color />
                   </div>
                   <div className="product-detail">
                     <h5>Size:</h5>
