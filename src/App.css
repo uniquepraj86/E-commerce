@@ -659,6 +659,15 @@ footer .input-group-text{
   background-color: var(--color-131921);
   color: white;
 }
+.login {
+  background-color: var(--color-131921);
+  color: white !important;
+  border: none;
+}
+.login:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921) !important;
+}
 /*  auth card  ends*/
 
 /* Policy Pages */
