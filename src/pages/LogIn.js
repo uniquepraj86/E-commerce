@@ -22,6 +22,7 @@ const LogIn = () => {
               <CustomInput type="password" name="Password" placeholder="Password" className="form-control"/>
               </div>
               <div>
+                
                 <Link to='/forgot-password' className="font-weight-bold mb-2">Forgot Password?</Link>
                 <div className="d-flex justify-content-center gap-15 align-items-center">
                 <Link  to='/reset-password' className="button login border-0">Login</Link>
