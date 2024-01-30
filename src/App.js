@@ -12,6 +12,8 @@ import Wishlist from './pages/Wishlist';
 import LogIn from './pages/LogIn'
 import ForgotPassword from './pages/ForgotPassward';
 import SignUp from './pages/SignUp';
+import PrivacyPolicy from './pages/privacyPolicy';
+import RefundPloicy from './pages/RefundPolicy';
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
            <Route path='log-in' element={<LogIn/>}/>
            <Route path='forgot-password' element={<ForgotPassword/>}/>
            <Route path='sign-up' element={<SignUp/>}/>
+           <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="refund-policy" element={<RefundPloicy />} />
           </Route>
       </Routes>
   </BrowserRouter>
